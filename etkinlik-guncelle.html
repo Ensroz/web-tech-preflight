@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etkinlik Güncelle</title>
+  <link rel="stylesheet" href="css/2416501082.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>Etkinlik Güncelle</h1>
+      <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="etkinlikler.html">Etkinlikler</a>
+        <a href="etkinlik-ekle.html">Ekle</a>
+        <a href="etkinlik-guncelle.html" class="active">Güncelle</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="form-card">
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="guncelle-ad">Etkinlik adı</label>
+          <input type="text" id="guncelle-ad" name="ad" value="Kariyer Günleri 2026">
+        </div>
+
+        <div class="form-group">
+          <label for="guncelle-kategori">Kategori</label>
+          <select id="guncelle-kategori" name="kategori">
+            <option value="seminer" selected>Seminer ▾</option>
+            <option value="atolye">Atölye</option>
+            <option value="soylesi">Söyleşi</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="guncelle-tarih">Tarih</label>
+          <input type="text" id="guncelle-tarih" name="tarih" value="12.10.2026">
+        </div>
+
+        <div class="form-group">
+          <label for="guncelle-aciklama">Açıklama</label>
+          <textarea id="guncelle-aciklama" name="aciklama" rows="3">Mezun söyleşileri</textarea>
+        </div>
+
+        <button type="submit" class="btn-submit">Güncelle</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
